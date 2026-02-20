@@ -12,12 +12,12 @@ body {
 }
 @media (max-width: 768px) {
   .back {
-    background-image: url(/img/background-pattern-mobile.svg);
+    background-image: url(img/background-pattern-mobile.svg);
   }
   .card {
     margin: 0 20px;
   }
-  .question{
+  .question {
     max-width: 90%;
   }
 }
@@ -34,7 +34,7 @@ body {
   height: 30vh;
   position: absolute;
   z-index: -1;
-  background-image: url(/img/background-pattern-desktop.svg);
+  background-image: url(img/background-pattern-desktop.svg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -68,8 +68,8 @@ ul li {
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
-  padding: 20px 0 ;
-flex-wrap: wrap;
+  padding: 20px 0;
+  flex-wrap: wrap;
 }
 ul li:not(:first-child) {
   border-top: 1px solid #ddd;
